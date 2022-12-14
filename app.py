@@ -36,7 +36,7 @@ async def on_message(message):
 
     if message.channel.name == "general":
         if user_message.lower() == "hello":
-            await message.channel.send(f"hello {username}")
+            await message.channel.send(f"hello {username} !")
             return
 
         elif user_message.lower() == "bye":
