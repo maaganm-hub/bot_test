@@ -1,8 +1,10 @@
 import discord
 import random
+from os import getenv
 
 
-TOKEN = "MTA0MjM2ODc3Njk2NTk4ODM3Mg.GAwBgW.Y1w_7JQDyjoTZTbEsXBKp8qgonFeikMBR2E4v8"
+
+TOKEN = getenv("TOKEN")
 
 intents = discord.Intents.all()
 intents.dm_messages = True
